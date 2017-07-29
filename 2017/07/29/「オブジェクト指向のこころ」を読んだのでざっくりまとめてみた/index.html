@@ -38,7 +38,7 @@
 <meta property="og:url" content="http://otakumesi.io/2017/07/29/「オブジェクト指向のこころ」を読んだのでざっくりまとめてみた/index.html">
 <meta property="og:site_name" content="Otakumesi::IO#post">
 <meta property="og:description" content="この本をざっくりと一言で表すと適切な責務で分解をしてオブジェクトとして設計していくことで、拡張に柔軟なアプリケーションを作ることが出来る オブジェクト指向の原則オブジェクトは適切な責務を伴い、自らに対する責務を有している カプセル化は様々なものの隠蔽である データの隠蔽 実装の隠蔽 ex. クライアントオブジェクトから隠蔽する、Bridgeパターン   クラスの隠蔽 抽象クラス・インターフェース">
-<meta property="og:updated_time" content="2017-07-29T12:35:54.000Z">
+<meta property="og:updated_time" content="2017-07-29T12:39:41.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="「オブジェクト指向のこころ」を読んだのでざっくりまとめてみた">
 <meta name="twitter:description" content="この本をざっくりと一言で表すと適切な責務で分解をしてオブジェクトとして設計していくことで、拡張に柔軟なアプリケーションを作ることが出来る オブジェクト指向の原則オブジェクトは適切な責務を伴い、自らに対する責務を有している カプセル化は様々なものの隠蔽である データの隠蔽 実装の隠蔽 ex. クライアントオブジェクトから隠蔽する、Bridgeパターン   クラスの隠蔽 抽象クラス・インターフェース">
@@ -165,7 +165,7 @@
   <div class="post-toc" id="post-toc">
     <h2 class="post-toc-title">Contents</h2>
     <div class="post-toc-content">
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#この本をざっくりと一言で表すと"><span class="toc-text">この本をざっくりと一言で表すと</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#オブジェクト指向の原則"><span class="toc-text">オブジェクト指向の原則</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#カプセル化は様々なものの隠蔽である"><span class="toc-text">カプセル化は様々なものの隠蔽である</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#抽象をもとに設計をする"><span class="toc-text">抽象をもとに設計をする</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#コードは保守性を高くする"><span class="toc-text">コードは保守性を高くする</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#デザインパターン"><span class="toc-text">デザインパターン</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#パターンとは"><span class="toc-text">パターンとは</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#パターンを見るときの観点"><span class="toc-text">パターンを見るときの観点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#デザインパターンを利用することの利点"><span class="toc-text">デザインパターンを利用することの利点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#共通性-可変性分析とデザインパターン"><span class="toc-text">共通性/可変性分析とデザインパターン</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#コンテキストに基づく設計をすること"><span class="toc-text">コンテキストに基づく設計をすること</span></a></li></ol></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#この本をざっくりと一言で表すと"><span class="toc-text">この本をざっくりと一言で表すと</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#オブジェクト指向の原則"><span class="toc-text">オブジェクト指向の原則</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#カプセル化は様々なものの隠蔽である"><span class="toc-text">カプセル化は様々なものの隠蔽である</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#抽象をもとに設計をする"><span class="toc-text">抽象をもとに設計をする</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#コードは保守性を高くする"><span class="toc-text">コードは保守性を高くする</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#デザインパターン"><span class="toc-text">デザインパターン</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#パターンとは"><span class="toc-text">パターンとは</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#パターンを見るときの観点"><span class="toc-text">パターンを見るときの観点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#デザインパターンを利用することの利点"><span class="toc-text">デザインパターンを利用することの利点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#共通性-可変性分析とデザインパターン"><span class="toc-text">共通性/可変性分析とデザインパターン</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#コンテキストに基づく設計をすること"><span class="toc-text">コンテキストに基づく設計をすること</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#感想"><span class="toc-text">感想</span></a></li></ol>
     </div>
   </div>
 
@@ -263,6 +263,7 @@
 <p>例えば、インターフェースとポリモーフィズムを用いた設計などが言える</p>
 <p>こうすることで、自然発生的にデザインパターンが導かれることもある</p>
 <p>デザインパターンとは当てはめるものではなく、<br>こうしたコンテキストに基づいた設計のプロセスで導かれるものである</p>
+<h1 id="感想"><a href="#感想" class="headerlink" title="感想"></a>感想</h1><p>自分に欠けていた視点を得ることができたと思います<br>特に抽象から実装に進んでいくというやり方を、これまで考えてきませんでした<br>今までの自分の書き方を思い返すと、すぐに実装から考えてしまっていたなぁと反省しました<br>手戻りや仕様変更で発生する悪夢が発生しうる危険なやり方であったため、考えを改めようと思います</p>
 
       
     </div>
